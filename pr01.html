@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASH FITNESS CENTER</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/pr1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        font-family: 'Domine', serif;
+
+    }
+
+    .header {
+        color: white;
+        border: 2px solid rgb(5, 5, 5);
+        /* background-color: rgb(90, 86, 86);   */
+    }
+
+    .left {
+        border: 2px solid rgb(90, 86, 86);
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 2px;
+    }
+
+    .left img {
+        width: 65px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 33px auto;
+        /* border: 2px solid rgb(90, 86, 86); */
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: rgb(70, 150, 153);
+        text-decoration: underline;
+
+    }
+
+    .btn {
+        margin: 5px 15px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border-radius: 10px;
+        font-size: 17px;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .right {
+        position: absolute;
+        /* border: 2px solid black; */
+        right: 30px;
+        top: 29px;
+        display: inline-block;
+
+    }
+
+    .container {
+        border: 2px solid greenyellow;
+        margin: 60px 60px;
+        padding: 30px 30px;
+        border-radius: 5px;
+        width: 33%;
+        color: white;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 445px;
+        padding: 0px 0px;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .btn1 {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        }
+        .btn1:hover{
+color: aqua;
+background-color: gray;
+        }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/pr01.jpg" alt="">
+            <div>YASH</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">services</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN NOW</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your phone no">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your email id">
+            </div>
+            <br>
+            <botton class="btn1">submit now</botton>
+        </form>
+    </div>
+</body>
+
+</html>
